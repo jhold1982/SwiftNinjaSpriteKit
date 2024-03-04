@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64800EFA2B965F6400D4F308 /* sliceFuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64800EEF2B965F6300D4F308 /* sliceFuse.sks */; };
+		64800EFB2B965F6400D4F308 /* swoosh2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF02B965F6300D4F308 /* swoosh2.caf */; };
+		64800EFC2B965F6400D4F308 /* sliceBombFuse.caf in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF12B965F6300D4F308 /* sliceBombFuse.caf */; };
+		64800EFD2B965F6400D4F308 /* launch.caf in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF22B965F6300D4F308 /* launch.caf */; };
+		64800EFE2B965F6400D4F308 /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF32B965F6300D4F308 /* explosion.caf */; };
+		64800EFF2B965F6400D4F308 /* sliceHitBomb.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF42B965F6300D4F308 /* sliceHitBomb.sks */; };
+		64800F002B965F6400D4F308 /* swoosh3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF52B965F6300D4F308 /* swoosh3.caf */; };
+		64800F012B965F6400D4F308 /* sliceHitEnemy.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF62B965F6300D4F308 /* sliceHitEnemy.sks */; };
+		64800F022B965F6400D4F308 /* swoosh1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF72B965F6300D4F308 /* swoosh1.caf */; };
+		64800F032B965F6400D4F308 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF82B965F6400D4F308 /* whack.caf */; };
+		64800F042B965F6400D4F308 /* wrong.caf in Resources */ = {isa = PBXBuildFile; fileRef = 64800EF92B965F6400D4F308 /* wrong.caf */; };
 		64D1F7B22B9655B200FA73B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1F7B12B9655B200FA73B6 /* AppDelegate.swift */; };
 		64D1F7B42B9655B200FA73B6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F7B32B9655B200FA73B6 /* GameScene.sks */; };
-		64D1F7B62B9655B200FA73B6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F7B52B9655B200FA73B6 /* Actions.sks */; };
 		64D1F7B82B9655B200FA73B6 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1F7B72B9655B200FA73B6 /* GameScene.swift */; };
 		64D1F7BA2B9655B200FA73B6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1F7B92B9655B200FA73B6 /* GameViewController.swift */; };
 		64D1F7BD2B9655B200FA73B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D1F7BB2B9655B200FA73B6 /* Main.storyboard */; };
@@ -18,10 +28,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64800EEF2B965F6300D4F308 /* sliceFuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceFuse.sks; sourceTree = "<group>"; };
+		64800EF02B965F6300D4F308 /* swoosh2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh2.caf; sourceTree = "<group>"; };
+		64800EF12B965F6300D4F308 /* sliceBombFuse.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sliceBombFuse.caf; sourceTree = "<group>"; };
+		64800EF22B965F6300D4F308 /* launch.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = launch.caf; sourceTree = "<group>"; };
+		64800EF32B965F6300D4F308 /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
+		64800EF42B965F6300D4F308 /* sliceHitBomb.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitBomb.sks; sourceTree = "<group>"; };
+		64800EF52B965F6300D4F308 /* swoosh3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh3.caf; sourceTree = "<group>"; };
+		64800EF62B965F6300D4F308 /* sliceHitEnemy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitEnemy.sks; sourceTree = "<group>"; };
+		64800EF72B965F6300D4F308 /* swoosh1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh1.caf; sourceTree = "<group>"; };
+		64800EF82B965F6400D4F308 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		64800EF92B965F6400D4F308 /* wrong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.caf; sourceTree = "<group>"; };
 		64D1F7AE2B9655B200FA73B6 /* SwiftNinjaSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNinjaSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D1F7B12B9655B200FA73B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64D1F7B32B9655B200FA73B6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		64D1F7B52B9655B200FA73B6 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		64D1F7B72B9655B200FA73B6 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		64D1F7B92B9655B200FA73B6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		64D1F7BC2B9655B200FA73B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +60,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64800F052B965F7100D4F308 /* SoundEffects */ = {
+			isa = PBXGroup;
+			children = (
+				64800EF32B965F6300D4F308 /* explosion.caf */,
+				64800EF22B965F6300D4F308 /* launch.caf */,
+				64800EF12B965F6300D4F308 /* sliceBombFuse.caf */,
+				64800EF72B965F6300D4F308 /* swoosh1.caf */,
+				64800EF02B965F6300D4F308 /* swoosh2.caf */,
+				64800EF52B965F6300D4F308 /* swoosh3.caf */,
+				64800EF82B965F6400D4F308 /* whack.caf */,
+				64800EF92B965F6400D4F308 /* wrong.caf */,
+			);
+			path = SoundEffects;
+			sourceTree = "<group>";
+		};
+		64800F062B965F8400D4F308 /* ParticleEffects */ = {
+			isa = PBXGroup;
+			children = (
+				64800EEF2B965F6300D4F308 /* sliceFuse.sks */,
+				64800EF42B965F6300D4F308 /* sliceHitBomb.sks */,
+				64800EF62B965F6300D4F308 /* sliceHitEnemy.sks */,
+			);
+			path = ParticleEffects;
+			sourceTree = "<group>";
+		};
 		64D1F7A52B9655B200FA73B6 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +106,13 @@
 			children = (
 				64D1F7B12B9655B200FA73B6 /* AppDelegate.swift */,
 				64D1F7B32B9655B200FA73B6 /* GameScene.sks */,
-				64D1F7B52B9655B200FA73B6 /* Actions.sks */,
 				64D1F7B72B9655B200FA73B6 /* GameScene.swift */,
 				64D1F7B92B9655B200FA73B6 /* GameViewController.swift */,
 				64D1F7BB2B9655B200FA73B6 /* Main.storyboard */,
 				64D1F7BE2B9655B300FA73B6 /* Assets.xcassets */,
 				64D1F7C02B9655B300FA73B6 /* LaunchScreen.storyboard */,
+				64800F052B965F7100D4F308 /* SoundEffects */,
+				64800F062B965F8400D4F308 /* ParticleEffects */,
 			);
 			path = SwiftNinjaSpriteKit;
 			sourceTree = "<group>";
@@ -129,11 +175,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64800F002B965F6400D4F308 /* swoosh3.caf in Resources */,
+				64800F022B965F6400D4F308 /* swoosh1.caf in Resources */,
+				64800EFE2B965F6400D4F308 /* explosion.caf in Resources */,
 				64D1F7BD2B9655B200FA73B6 /* Main.storyboard in Resources */,
+				64800F012B965F6400D4F308 /* sliceHitEnemy.sks in Resources */,
 				64D1F7B42B9655B200FA73B6 /* GameScene.sks in Resources */,
+				64800EFB2B965F6400D4F308 /* swoosh2.caf in Resources */,
+				64800EFF2B965F6400D4F308 /* sliceHitBomb.sks in Resources */,
+				64800EFA2B965F6400D4F308 /* sliceFuse.sks in Resources */,
+				64800F032B965F6400D4F308 /* whack.caf in Resources */,
 				64D1F7BF2B9655B300FA73B6 /* Assets.xcassets in Resources */,
+				64800EFD2B965F6400D4F308 /* launch.caf in Resources */,
+				64800EFC2B965F6400D4F308 /* sliceBombFuse.caf in Resources */,
+				64800F042B965F6400D4F308 /* wrong.caf in Resources */,
 				64D1F7C22B9655B300FA73B6 /* LaunchScreen.storyboard in Resources */,
-				64D1F7B62B9655B200FA73B6 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
